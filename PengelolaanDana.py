@@ -192,7 +192,7 @@ menu = st.sidebar.radio("Pilih Menu", [
     "Persetujuan Pengeluaran"
 ])
 
-# Tambahkan logika pemanggilan fungsi berdasarkan pilihan menu
+# pemanggilan fungsi 
 if menu == "Dashboard":
     tampilkan_dashboard()
 elif menu == "Pencatatan Pemasukan":
