@@ -104,6 +104,11 @@ dana_sosial = st.session_state.dana_sosial
 
 # **Fungsi Dashboard**
 def tampilkan_dashboard():
+
+    #selamat datang dan image masjid
+    st.title("Selamat Datang di Aplikasi Penggalangan Dana Sosial")
+    st.image("image.jpg", use_container_width=True, caption="Aplikasi Penggalangan Dana Sosial")
+    
     st.header("Dashboard Keuangan")
 
     # Ringkasan keuangan
@@ -192,7 +197,7 @@ menu = st.sidebar.radio("Pilih Menu", [
     "Persetujuan Pengeluaran"
 ])
 
-# pemanggilan fungsi 
+# Tambahkan logika pemanggilan fungsi berdasarkan pilihan menu
 if menu == "Dashboard":
     tampilkan_dashboard()
 elif menu == "Pencatatan Pemasukan":
