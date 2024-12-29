@@ -1,3 +1,5 @@
+import streamlit as st
+
 def pencatatan_pemasukan(dana_sosial):
     st.header("Pencatatan Pemasukan")
     with st.form("form_pemasukan"):
