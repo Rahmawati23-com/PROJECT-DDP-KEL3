@@ -12,10 +12,10 @@ dana_sosial = st.session_state.dana_sosial
 
 st.sidebar.title("Aplikasi Pengelolaan Dana Sosial")
 menu = st.sidebar.radio("Pilih Menu", [
-    "Dashboard", 
-    "Pencatatan Pemasukan", 
-    "Pencatatan Pengeluaran", 
-    "Persetujuan Pengeluaran"
+    "🏠Dashboard", 
+    "➕Pencatatan Pemasukan", 
+    "💸Pencatatan Pengeluaran", 
+    "✅Persetujuan Pengeluaran"
 ])
 
 if menu == "Dashboard":
