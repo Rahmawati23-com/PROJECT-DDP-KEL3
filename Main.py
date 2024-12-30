@@ -1,10 +1,10 @@
 import streamlit as st
-from danasosial import DanaSosial
+from DanaSosial import DanaSosial
 from streamlit_option_menu import option_menu
 from dashboard import tampilkan_dashboard
-from pemasukan import pencatatan_pemasukan
-from pengeluaran import pencatatan_pengeluaran
-from persetujuan import persetujuan_pengeluaran
+from Pemasukan import pencatatan_pemasukan
+from Pengeluaran import pencatatan_pengeluaran
+from Persetujuan import persetujuan_pengeluaran
 from tentangkami import tentang_kami
 
 if "dana_sosial" not in st.session_state:
